@@ -56,6 +56,7 @@ struct WelcomeView: View {
             // Adds the button to move to the next page
             Button {
                 NSApp.keyWindow?.close()
+                shouldWelcome = false
             } label: {
                 Text("Get Started")
                     // Makes the button wider

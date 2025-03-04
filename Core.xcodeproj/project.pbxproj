@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D283EB12D7699BF006A50B3 /* Luminare in Frameworks */ = {isa = PBXBuildFile; productRef = 9D283EB02D7699BF006A50B3 /* Luminare */; };
 		9D98C5F42D73F3E9006B82FF /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 9D98C5F32D73F3E9006B82FF /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D98C5F42D73F3E9006B82FF /* LaunchAtLogin in Frameworks */,
+				9D283EB12D7699BF006A50B3 /* Luminare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 			name = Core;
 			packageProductDependencies = (
 				9D98C5F32D73F3E9006B82FF /* LaunchAtLogin */,
+				9D283EB02D7699BF006A50B3 /* Luminare */,
 			);
 			productName = Core;
 			productReference = 9D98C54B2D73E799006B82FF /* Core.app */;
@@ -203,6 +206,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				9D98C5F22D73F3E9006B82FF /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+				9D283EAF2D7699BF006A50B3 /* XCRemoteSwiftPackageReference "Luminare" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9D98C54C2D73E799006B82FF /* Products */;
@@ -417,7 +421,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aramsoneson.Core;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -446,7 +450,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aramsoneson.Core;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -560,6 +564,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9D283EAF2D7699BF006A50B3 /* XCRemoteSwiftPackageReference "Luminare" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MrKai77/Luminare.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		9D98C5F22D73F3E9006B82FF /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
@@ -571,6 +583,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9D283EB02D7699BF006A50B3 /* Luminare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D283EAF2D7699BF006A50B3 /* XCRemoteSwiftPackageReference "Luminare" */;
+			productName = Luminare;
+		};
 		9D98C5F32D73F3E9006B82FF /* LaunchAtLogin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9D98C5F22D73F3E9006B82FF /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
