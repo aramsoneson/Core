@@ -14,6 +14,10 @@
 - Hide or change menu bar icon
 - Change number of decimal places on percentage
 
+## Credits
+- Special thanks to the following Swift packages
+  - [LaunchAtLogin-Modern](https://github.com/sindresorhus/LaunchAtLogin-Modern) by Sindre Sorhus
+
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
