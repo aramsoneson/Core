@@ -16,7 +16,7 @@
 
 ## Credits
 - Special thanks to the following Swift packages
-  - LaunchAtLogin-Modern by Sindre Sorhus
+  - [LaunchAtLogin-Modern](https://github.com/sindresorhus/LaunchAtLogin-Modern) by Sindre Sorhus
 
 ## License
 
