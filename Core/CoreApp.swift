@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MenuBarApp: App {
+struct CoreApp: App {
     // Makes sure cpuMonitor persists for the lifetime of the app
     @StateObject private var cpuMonitor = CPUMonitor()
     // Defines the variable to open the About window
