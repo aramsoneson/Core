@@ -29,7 +29,7 @@ struct AboutView: View {
                 .font(.system(.largeTitle))
                 .fontWidth(.expanded)
                 .fontWeight(.black)
-            Text("Version 1.0")
+            Text("Version 1.0.1")
                 .font(.system(.body))
         }
         // Moves the entire VStack up 20 to make it more visually centered
