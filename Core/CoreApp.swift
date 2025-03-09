@@ -23,7 +23,7 @@ struct CoreApp: App {
         MenuBarExtra {
             // Defines the button that links to the About window
             Button("About") {
-                openAboutWindow()
+                openWindow(id: "about")
             }
             
             // Defines the button that links to the Settings window
@@ -104,11 +104,6 @@ struct CoreApp: App {
         }
         // Sets the window to sit on top of all other windows
         .windowLevel(.floating)
-    }
-    
-    // Defines the function that opens the About window
-    private func openAboutWindow() {
-        openWindow(id: "about")
     }
 }
 
