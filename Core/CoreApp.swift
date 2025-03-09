@@ -11,7 +11,7 @@ import SwiftUI
 struct CoreApp: App {
     // Makes sure cpuMonitor persists for the lifetime of the app
     @StateObject private var cpuMonitor = CPUMonitor()
-    // Defines the variable to open the About window
+    // Defines the variable to open windows
     @Environment(\.openWindow) private var openWindow
     // Defines the variable for the menu bar item's icon
     @AppStorage("menuBarIcon") private var menuBarIcon: String = "cpu"
@@ -23,7 +23,7 @@ struct CoreApp: App {
         MenuBarExtra {
             // Defines the button that links to the About window
             Button("About") {
-                openAboutWindow()
+                openWindow(id: "about")
             }
             
             // Defines the button that links to the Settings window
@@ -104,11 +104,6 @@ struct CoreApp: App {
         }
         // Sets the window to sit on top of all other windows
         .windowLevel(.floating)
-    }
-    
-    // Defines the function that opens the About window
-    private func openAboutWindow() {
-        openWindow(id: "about")
     }
 }
 
