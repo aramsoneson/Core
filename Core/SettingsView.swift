@@ -44,18 +44,27 @@ struct GeneralView: View {
                     // Defines the available icons
                     // systemName defines how the option is shown in the window
                     // .tag defines what the variable will be set to
-                    Text("").tag("")
-                    Image(systemName: "cpu").tag("cpu")
-                    Image(systemName: "cpu.fill").tag("cpu.fill")
+                    Text("    ")
+                        .tag("    ")
+                    Image(systemName: "cpu")
+                        .tag("cpu")
+                    Image(systemName: "cpu.fill")
+                        .tag("cpu.fill")
                     
-                    Image(systemName: "memorychip").tag("memorychip")
-                    Image(systemName: "memorychip.fill").tag("memorychip.fill")
+                    Image(systemName: "memorychip")
+                        .tag("memorychip")
+                    Image(systemName: "memorychip.fill")
+                        .tag("memorychip.fill")
                     
-                    Image(systemName: "gauge.with.needle").tag("gauge.with.needle")
-                    Image(systemName: "gauge.with.needle.fill").tag("gauge.with.needle.fill")
+                    Image(systemName: "gauge.with.needle")
+                        .tag("gauge.with.needle")
+                    Image(systemName: "gauge.with.needle.fill")
+                        .tag("gauge.with.needle.fill")
                     
-                    Image(systemName: "waveform").tag("waveform")
-                    Image(systemName: "waveform.path").tag("waveform.path")
+                    Image(systemName: "waveform")
+                        .tag("waveform")
+                    Image(systemName: "waveform.path")
+                        .tag("waveform.path")
                 }
             }
         }
