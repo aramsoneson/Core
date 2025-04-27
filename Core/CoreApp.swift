@@ -17,7 +17,6 @@ struct CoreApp: App {
     @AppStorage("menuBarIcon") private var menuBarIcon: String = "cpu"
     // Defines the variable for whether the Welcome window opens
     @AppStorage("shouldWelcome") var shouldWelcome: Bool = true
-    // test
             
     var body: some Scene {
         // Defines the menu bar item
